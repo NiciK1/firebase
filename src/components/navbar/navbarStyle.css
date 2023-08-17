@@ -1,0 +1,52 @@
+.navbarContainer {
+    display: flex;
+    background-color: rgb(176, 176, 176);
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(138, 138, 138);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px 5dvw 20px 2dvw;
+}
+
+.profileContainer:hover{
+    cursor: pointer;
+}
+
+.linkContainer{
+    display: flex;
+}
+
+.link{
+    all: unset;
+    margin: 0.7dvw;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-bottom: 3px solid var(--main-text-color);
+    color: var(--main-text-color);
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+.profileImg{
+    width: 45px;
+    border-radius: 100%;
+}
+
+.profileName{
+    font-size: 1.2rem;
+    margin: 0px 0px 0px 0.5dvw;
+    font-weight: 500;
+    transform: translateY(-1.6px);
+    color: var(--main-text-color);
+}

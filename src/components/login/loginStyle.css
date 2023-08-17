@@ -1,0 +1,14 @@
+.loginWithGoogleBtn{
+    all: unset;
+    background-color: rgb(241, 241, 241);
+    border: 5px solid rgb(244, 244, 244);
+    border-radius: 10px;
+}
+
+.loginWithGoogleBtn-googleIcon{
+    padding: 3px 2px 0px 2px;
+}
+
+.loginWithGoogleBtn-googleIcon:hover{
+    cursor: pointer;
+}
